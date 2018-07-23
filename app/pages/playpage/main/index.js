@@ -22,7 +22,8 @@ class MainPagelet extends Biglet {
 
     const model = new Model(data)
     this.data = model.toJSON()
-
+    
+    console.log(this.data)
     return this.data
   }
 }

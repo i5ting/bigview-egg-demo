@@ -15,9 +15,7 @@ module.exports = {
         if (directories) {
           for (let d of directories) {
             try {
-              
               let page = require(path.join(pagePath, d))
-              console.log(page)
               obj[d] = page
             } catch (err) {
               console.log(err)

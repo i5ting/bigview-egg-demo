@@ -5,6 +5,5 @@
  */
 module.exports = app => {
   const { router, pages } = app
-  // router.get('/', pages.playpage)
   router.get('/', pages.playpage)
 }
