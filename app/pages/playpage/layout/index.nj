@@ -17,24 +17,19 @@
       <p class="masthead-button-links">
         <a class="btn btn-lg btn-primary btn-shadow" href="https://github.com/bigviewjs/bigview" target="_blank" role="button">BigView 项目地址</a>
       </p>
-      
-      
     </div>
   </div>
     <div class="container bs-docs-container">
-
       <div class="row">
-        <div class="col-md-9" role="main"> main 
+        <div class="col-md-9" role="main">  
           {# Main Pagelet placeholder #}
           <div id="bpmodule-main"></div>
         </div>
-        <div class="col-md-3" role="complementary"> other
-                
+
+        <div class="col-md-3" role="complementary">       
           {# Other Pagelet placeholder #}
           <div class="jumbotron" id="bpmodule-other"></div>
-         </div>
- 
- 
+        </div>
       </div>
     </div>
  

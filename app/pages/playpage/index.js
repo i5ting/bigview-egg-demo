@@ -22,6 +22,8 @@ async function index (ctx) {
 
   bigView.add(otherPagelet)
 
+  bigView.mode = 'pipeline'
+
   await bigView.start()
 }
 
