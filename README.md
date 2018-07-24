@@ -1,4 +1,4 @@
-# bigview-demo
+# bigview-egg-demo
 
 description
 
